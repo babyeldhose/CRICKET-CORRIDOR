@@ -20,13 +20,13 @@
             <div class="navbar navbar-default">
 		<div class="navbar-header">
                     <ul class="nav nav-pills nav-justified">
-			<li><a href="index.jsp" data-toggle="tab">Home</a></li>
+			<li><a href="#home" data-toggle="tab">Home</a></li>
                         <li><a href="" data-toggle="tab">Sign Up</a></li>
                         <li><a href="login.jsp" data-toggle="tab">Log In</a></li>
                         <li><a href="OnlineTutor.jsp" data-toggle="tab">Online Tutor</a></li>
                         <li><a href="newforum.jsp" data-toggle="tab">New Forum</a></li>
 			<li><a href="existingforum.jsp" data-toggle="tab">Existing Forum</a></li>
-                        <li><a href="login" data-toggle="tab">Log Out</a></li>
+                        <li><a href="../Project/LoginServlet" data-toggle="tab">Log Out</a></li>
 		    </ul>
                 </div>
             </div>
