@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author c0652674
+ * @author ELDHOSE
  */
 public class forumchat extends HttpServlet {
 

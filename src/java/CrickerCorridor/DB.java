@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**
  *
- * @author Eldhose
+ * @author ELDHOSE
  */
 public class DB {
         String url="jdbc:as400:174.79.32.158";

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Eldhose
+ * @author ELDHOSE
  */
 public class createforum extends HttpServlet {
 

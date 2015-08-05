@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author Eldhose
+ * @author ELDHOSE
  */
 public class login extends HttpServlet {
 
@@ -57,7 +57,10 @@ public class login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        //processRequest(request, response);
+        HttpSession session=request.getSession();
+        session.invalidate();
+        request.getRequestDispatcher("login.jsp").forward(request, response);
     }
 
     /**
