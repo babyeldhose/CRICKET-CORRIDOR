@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author ELDHOSE
+ * @author Eldhose
  */
 public class signup extends HttpServlet {
 
